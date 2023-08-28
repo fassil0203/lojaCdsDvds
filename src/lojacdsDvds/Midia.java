@@ -32,7 +32,8 @@ public class Midia {
             this.name = name;
         }
 
-        public Midia(){
+        public Midia()
+        {
             this(0,0,"Nenhum");
         }
 
@@ -79,7 +80,7 @@ public class Midia {
             setCodigo(cod);
             setName(nam);
             setPreco(pre);
-            
+
 
         }
     }
